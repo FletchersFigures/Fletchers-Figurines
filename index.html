@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fletcher's Figures - custom action figures and statues made to your design.">
+  <title>Fletcher's Figures | Custom Action Figures & Statues</title>
+  <link rel="icon" href="assets/logo.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Fletcher's Figures home">
+      <img src="assets/logo.jpg" alt="Fletcher's Figures logo">
+      <span>Fletcher's Figures</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#order">Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">CUSTOM • HANDMADE • ONE OF A KIND</p>
+        <h1>Bring Your<br><span>Ideas to Life.</span></h1>
+        <p class="hero-text">
+          Custom action figures and statues designed and made around your ideas.
+          Choose the size, describe your character, and create something that is truly yours.
+        </p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#order">Start an Order</a>
+          <a class="button secondary" href="#gallery">View Gallery</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="figure-placeholder">
+          <div class="figure-head"></div>
+          <div class="figure-body"></div>
+          <div class="figure-arm left"></div>
+          <div class="figure-arm right"></div>
+          <div class="figure-leg left"></div>
+          <div class="figure-leg right"></div>
+        </div>
+        <p>YOUR DESIGN<br><strong>YOUR FIGURE</strong></p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT THE BUSINESS</p>
+        <h2>Made for people with <span>big ideas.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>
+            Fletcher's Figures creates custom action figures and statues based on
+            your own characters, creatures, concepts, and designs.
+          </p>
+          <p>
+            Whether you want a small custom figure or a larger display statue,
+            the goal is simple: make something unique that you won't find sitting
+            on a normal shop shelf.
+          </p>
+        </div>
+        <div class="feature-list">
+          <div class="feature"><b>01</b><span><strong>Custom designs</strong><br>Built around your description and ideas.</span></div>
+          <div class="feature"><b>02</b><span><strong>Different sizes</strong><br>Choose 15cm, 20cm, or 30cm.</span></div>
+          <div class="feature"><b>03</b><span><strong>Optional weapons</strong><br>Add up to 5 weapons for $1 each.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">CUSTOM WORK</p>
+        <h2>The <span>Gallery</span></h2>
+        <p>Examples can be added here as your collection grows.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-card"><span>01</span><h3>Custom Figure</h3><p>Your figure photo here</p></div>
+        <div class="gallery-card"><span>02</span><h3>Custom Figure</h3><p>Your figure photo here</p></div>
+        <div class="gallery-card"><span>03</span><h3>Custom Statue</h3><p>Your statue photo here</p></div>
+        <div class="gallery-card"><span>04</span><h3>Custom Figure</h3><p>Your figure photo here</p></div>
+        <div class="gallery-card"><span>05</span><h3>Custom Statue</h3><p>Your statue photo here</p></div>
+        <div class="gallery-card"><span>06</span><h3>Custom Figure</h3><p>Your figure photo here</p></div>
+        <div class="gallery-card"><span>07</span><h3>Custom Figure</h3><p>Your figure photo here</p></div>
+        <div class="gallery-card"><span>08</span><h3>Custom Statue</h3><p>Your statue photo here</p></div>
+        <div class="gallery-card"><span>09</span><h3>Custom Figure</h3><p>Your figure photo here</p></div>
+        <div class="gallery-card"><span>10</span><h3>Custom Statue</h3><p>Your statue photo here</p></div>
+        <div class="gallery-card"><span>11</span><h3>Custom Figure</h3><p>Your figure photo here</p></div>
+        <div class="gallery-card"><span>12</span><h3>Custom Statue</h3><p>Your statue photo here</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="order">
+      <div class="section-heading">
+        <p class="eyebrow">CUSTOM ORDERS</p>
+        <h2>Build your <span>order.</span></h2>
+        <p>Fill this out and your email app will open with the order details ready to send.</p>
+      </div>
+
+      <div class="order-layout">
+        <form id="orderForm" class="order-form">
+          <label>
+            Your name
+            <input type="text" id="name" required placeholder="Your name">
+          </label>
+
+          <label>
+            Figure description
+            <textarea id="description" required placeholder="Describe your character, colours, pose, accessories, etc."></textarea>
+          </label>
+
+          <label>
+            Size
+            <select id="size" required>
+              <option value="15cm|10">15cm — $10 NZD</option>
+              <option value="20cm|15">20cm — $15 NZD</option>
+              <option value="30cm|20">30cm — $20 NZD</option>
+            </select>
+          </label>
+
+          <label>
+            Number of weapons
+            <select id="weapons">
+              <option value="0">No weapons — $0</option>
+              <option value="1">1 weapon — $1</option>
+              <option value="2">2 weapons — $2</option>
+              <option value="3">3 weapons — $3</option>
+              <option value="4">4 weapons — $4</option>
+              <option value="5">5 weapons — $5</option>
+            </select>
+          </label>
+
+          <div class="price-box">
+            <span>Estimated total</span>
+            <strong id="total">$10 NZD</strong>
+          </div>
+
+          <button class="button primary full" type="submit">Send Order Request</button>
+        </form>
+
+        <aside class="pricing">
+          <h3>Pricing</h3>
+          <div><span>15cm figure</span><b>$10</b></div>
+          <div><span>20cm figure</span><b>$15</b></div>
+          <div><span>30cm figure</span><b>$20</b></div>
+          <div><span>Each weapon</span><b>$1</b></div>
+          <p>All prices shown in NZD. Final details can be confirmed by email before the order is made.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-box">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Have an idea?<br><span>Let's make it.</span></h2>
+          <p>Questions, custom designs, or anything else about an order — send a message.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-email" href="mailto:lathamfletcher12@gmail.com">lathamfletcher12@gmail.com</a>
+          <a class="button primary" href="mailto:lathamfletcher12@gmail.com">Email Fletcher's Figures</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/logo.jpg" alt="" aria-hidden="true">
+    <p>© <span id="year"></span> Fletcher's Figures. Custom action figures & statues.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
